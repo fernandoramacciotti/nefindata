@@ -1,0 +1,61 @@
+* using log directory 'C:/Users/Ferna/OneDrive/Documentos/Documentos Fernando/GitHub/nefin-data/nefindata/nefindata.Rcheck'
+* using R version 3.6.1 (2019-07-05)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* using options '--no-manual --as-cran'
+* checking for file 'nefindata/DESCRIPTION' ... OK
+* this is package 'nefindata' version '0.0.0.9000'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking serialization versions ... OK
+* checking whether package 'nefindata' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... NOTE
+unable to verify current time
+* checking DESCRIPTION meta-information ... NOTE
+License components which are templates and need '+ file LICENSE':
+  MIT License
+* checking top-level files ... NOTE
+File
+  LICENSE
+is not mentioned in the DESCRIPTION file.
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... WARNING
+'::' or ':::' imports not declared from:
+  'dplyr' 'readxl'
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+get_risk_factors: no visible global function definition for '%>%'
+get_single_risk_factor: no visible global function definition for '%>%'
+get_single_risk_factor: no visible global function definition for
+  'select'
+get_single_risk_factor: no visible binding for global variable 'day'
+get_single_risk_factor: no visible binding for global variable 'year'
+get_single_risk_factor: no visible binding for global variable 'month'
+get_single_risk_factor: no visible global function definition for
+  'funs'
+Undefined global functions or variables:
+  %>% day funs month select year
+* checking for missing documentation entries ... OK
+* checking examples ... NONE
+* DONE
+Status: 1 WARNING, 4 NOTEs

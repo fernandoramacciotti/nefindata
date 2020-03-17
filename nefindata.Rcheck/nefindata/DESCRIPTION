@@ -1,7 +1,7 @@
 Package: nefindata
 Title: NEFIN Data Downloader
 Version: 0.0.0.9000
-Authors@R:
+Authors@R: 
     person(given = "Fernando",
            family = "Ramacciotti",
            role = c("aut", "cre"),
@@ -11,3 +11,8 @@ License: MIT License
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
+NeedsCompilation: no
+Packaged: 2020-03-17 23:17:33 UTC; Ferna
+Author: Fernando Ramacciotti [aut, cre]
+Maintainer: Fernando Ramacciotti <fernandoramacciotti@gmail.com>
+Built: R 3.6.1; ; 2020-03-17 23:18:07 UTC; windows

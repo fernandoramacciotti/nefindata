@@ -1,4 +1,4 @@
-require(xlsx)
+require(readxl)
 require(dplyr)
 
 # download single risk factor
