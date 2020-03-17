@@ -1,0 +1,13 @@
+Package: nefindata
+Title: NEFIN Data Downloader
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Fernando",
+           family = "Ramacciotti",
+           role = c("aut", "cre"),
+           email = "fernandoramacciotti@gmail.com",)
+Description: Functions to download data from NEFIN, the Brazilian Center for Research in Financial Economics of the University of São Paulo (http://www.nefin.com.br/).
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
