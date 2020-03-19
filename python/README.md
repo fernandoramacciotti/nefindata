@@ -1,6 +1,11 @@
 # nefindata
 Python and R packages to download data from NEFIN, the Brazilian Center for Research in Financial Economics of the University of São Paulo (http://www.nefin.com.br/)
 
+# Installation
+The python package can be installed via pip. Run the following command:
+```sh
+pip install nefindata
+```
 
 # Risk Factors
 Collect data of risk factors such as Market Factor, SMB, WML, HML, IML and Risk Free.

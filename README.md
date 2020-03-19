@@ -13,7 +13,6 @@ The R package can be installed via [devtools](https://github.com/r-lib/devtools)
 devtools::install_github('fernandoramacciotti/nefindata/R')
 ```
 
-
 # Risk Factors
 Collect data of risk factors such as Market Factor, SMB, WML, HML, IML and Risk Free.
 
