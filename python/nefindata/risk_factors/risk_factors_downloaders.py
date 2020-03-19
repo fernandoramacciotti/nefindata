@@ -69,7 +69,7 @@ def get_risk_factors(factors=None, agg=None, agg_func=None):
     """Download a risk factor time series data from NEFIN's website.
     
     Args:
-        factors (str or list-like): Risk factors to download. Options are: 'Market', 'SMB', 'HML', 'WML', 'IML' and 'Rf'. If 'all' or None, then all factor will be downloaded.
+        factors (str or list-like): Risk factors to download. Options are one or more out of: 'Market', 'SMB', 'HML', 'WML', 'IML' and 'Rf'. If 'all' or None, then all factors will be downloaded.
         agg (str, optional): Frequency to aggregate. Either 'year' (or 'yearly') and 'month' (or 'monhtly'). Defaults to None.
         agg_func (str, optional): Function to apply at aggreagtion (e.g. 'last' or 'mean'). If it is None, then it defaults to 'last'.
     

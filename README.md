@@ -3,19 +3,18 @@ Python and R packages to download data from NEFIN, the Brazilian Center for Rese
 
 
 # Risk Factors
-NEFIN's has been collecting historical financial data for risk factors such as Market Factor, SMB, WML, HML, IML and Risk Free.
+Collect data of risk factors such as Market Factor, SMB, WML, HML, IML and Risk Free.
 
-Python package:
+Python package example:
 ```python
 from nefindata.risk_factors import get_risk_factors
 
 factors = ['Mkt', 'SMB'] # for all factors, set it to 'all' or None
 df = get_risk_factors(factors)
 df_agg = get_risk_factors(factors, agg='month', agg_func='last')
-# 
 ```
 
-R package:
+R package example:
 ```r
 library(nefindata)
 
@@ -23,10 +22,30 @@ factors <- c('Mkt', 'SMB') # for all factors, set it to 'all'
 df <- get_risk_factors(factors)
 df.agg <- get_risk_factors(factors, agg = 'month', agg.func = 'last')
 ```
+# Cost of Capital
+Collect data of cost of capital for industrial sectors such as Basic Products, Construction, Consumer, Energy, Finance, Manufacturing and Other.
+Data is available for 1, 5, 10 and 20-year projects.
+
+Python package example:
+```python
+from nefindata.cost_capital import get_sector_cost_of_capital
+
+sector = 'Basic'
+df = get_sector_cost_of_capital(sector)
+df_agg = get_sector_cost_of_capital(sector, agg='year', agg_func='last')
+```
+
+R package example:
+```r
+library(nefindata)
+
+sector <- 'Basic'
+df <- get_sector_cost_of_capital(sector)
+df.agg <- get_sector_cost_of_capital(sector, agg = 'year', agg.func = 'last')
+```
 
 # Next Steps
 Include data downloaders from
-* [Cost of Capital](http://www.nefin.com.br/cost_of_capital.html)
 * [Dividend Yield](http://www.nefin.com.br/dividend_yield.html)
 * [Illiquidity Index](http://www.nefin.com.br/illiquidity_index.html)
 * [Loan Fees](http://www.nefin.com.br/loan_fees.html)

@@ -15,4 +15,5 @@ Imports:
         dplyr,
         readxl,
         purrr,
-        httr
+        httr,
+        stringr
