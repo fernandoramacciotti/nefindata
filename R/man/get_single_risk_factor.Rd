@@ -16,7 +16,7 @@ get_single_risk_factor(
 
 \item{agg}{Frequency to aggregate. It can be one of 'year' (or 'yearly') and ('month' or 'monthly'). If it is NULL or 'day' (or 'daily'), then it is the raw data from the website.}
 
-\item{agg.func}{A string that represents a function to aggregate. It can be any function that dplyr's `summarise()` function handles.}
+\item{agg.func}{A string that represents a function to aggregate. It can be any function that dplyr's `summarise()` function handles. If missing, then `last()` is used by deafult.}
 
 \item{progress}{If it is TRUE, then it shows download progress.}
 }

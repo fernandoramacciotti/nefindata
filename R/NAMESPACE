@@ -2,3 +2,7 @@
 
 export(get_risk_factors)
 export(get_single_risk_factor)
+import(dplyr)
+import(httr)
+import(purrr)
+import(readxl)

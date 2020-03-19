@@ -9,6 +9,10 @@
 #' @param progress If it is TRUE, then it shows download progress.
 #'
 #' @return A dataframe with the data aggregated (or not)
+#' @import dplyr
+#' @import readxl
+#' @import purrr
+#' @import httr
 #' @export
 #'
 #' @examples
@@ -38,7 +42,10 @@ get_risk_factors <- function(factors,
       factors <- all.factors
     }
   }
-
+  if (!missing(agg) & missing(agg.func)) {
+    agg.func <- 'last' # defatul if missing
+    message('WARNING: aggregation function not provided. Using last() by default')
+  }
   # init empty df with columns
   if (agg == 'daily' | agg == 'day') {
     df <- dplyr::tibble(year = numeric(), month = numeric(), day = numeric())
