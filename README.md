@@ -2,7 +2,9 @@
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/fernandoramacciotti/nefindata/blob/master/LICENSE) 
 [![Documentation Status](https://readthedocs.org/projects/nefindata/badge/?version=latest)](http://nefindata.readthedocs.io/?badge=latest) 
 
-Python and R packages to download data from NEFIN, the Brazilian Center for Research in Financial Economics of the University of São Paulo (http://www.nefin.com.br/)
+Python and R packages to download data from NEFIN, the Brazilian Center for Research in Financial Economics of the University of São Paulo (http://www.nefin.com.br/).  
+
+Please [check our documentation](http://nefindata.readthedocs.io/?badge=latest) for more examples and detailed API reference.
 
 # Installation
 The python package can be installed via pip. Run the following command:

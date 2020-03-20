@@ -4,6 +4,8 @@
 
 Python and R packages to download data from NEFIN, the Brazilian Center for Research in Financial Economics of the University of São Paulo (http://www.nefin.com.br/)
 
+Please [check our documentation](http://nefindata.readthedocs.io/?badge=latest) for more examples and detailed API reference.
+
 # Installation
 The R package can be installed via [devtools](https://github.com/r-lib/devtools) package. Make sure you have it installed and then run the following command:
 ```r
