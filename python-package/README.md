@@ -3,7 +3,6 @@
 [![Documentation Status](https://readthedocs.org/projects/nefindata/badge/?version=latest)](http://nefindata.readthedocs.io/?badge=latest) 
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/nefindata.svg)](https://pypi.python.org/pypi/nefindata/) 
 [![PyPI version fury.io](https://badge.fury.io/py/nefindata.svg)](https://pypi.python.org/pypi/nefindata/) 
-[![PyPI download total](https://img.shields.io/pypi/dt/nefindata.svg)](https://pypi.python.org/pypi/nefindata/) 
 
 Python and R packages to download data from NEFIN, the Brazilian Center for Research in Financial Economics of the University of São Paulo (http://www.nefin.com.br/)
 
