@@ -1,6 +1,6 @@
 # nefindata
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE) 
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest) 
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/fernandoramacciotti/nefindata/blob/master/LICENSE) 
+[![Documentation Status](https://readthedocs.org/projects/nefindata/badge/?version=latest)](http://nefindata.readthedocs.io/?badge=latest) 
 
 Python and R packages to download data from NEFIN, the Brazilian Center for Research in Financial Economics of the University of São Paulo (http://www.nefin.com.br/)
 
