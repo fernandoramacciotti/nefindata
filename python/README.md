@@ -32,12 +32,15 @@ df = get_sector_cost_of_capital(sector)
 df_agg = get_sector_cost_of_capital(sector, agg='year', agg_func='last')
 ```
 
+# Other data
+Similar functions get other data such as. The syntax is similar as above.
+* [Dividend Yield](http://www.nefin.com.br/dividend_yield.html): `get_dividend_yield()`
+* [Illiquidity Index](http://www.nefin.com.br/illiquidity_index.html): `get_illiquidity_index()`
+* [Loan Fees](http://www.nefin.com.br/loan_fees.html): `get_load_fees()`
+* [Short Interest](http://www.nefin.com.br/short_interest.html): `get_short_interest()`
+
 # Next Steps
 Include data downloaders from
-* [Dividend Yield](http://www.nefin.com.br/dividend_yield.html)
-* [Illiquidity Index](http://www.nefin.com.br/illiquidity_index.html)
-* [Loan Fees](http://www.nefin.com.br/loan_fees.html)
 * [Portfolios](http://www.nefin.com.br/portfolios.html)
-* [Short Interest](http://www.nefin.com.br/short_interest.html)
 * [Spot Rate Curve](http://www.nefin.com.br/spot_rate_curve.html)
 * [Volatility Index](http://www.nefin.com.br/volatility_index.html)

@@ -1,6 +1,6 @@
 Package: nefindata
 Title: NEFIN Data Downloader
-Version: 0.1.0.
+Version: 0.1.2
 Authors@R:
     person(given = "Fernando",
            family = "Ramacciotti",
