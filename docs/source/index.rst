@@ -13,3 +13,4 @@ Contents
 
    getting_started
    python_api
+   r_api

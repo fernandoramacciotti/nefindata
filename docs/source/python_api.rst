@@ -4,11 +4,9 @@ Python API
 
 List of **nefindata**'s python functions.
 
-Download Data
--------------
 
-Cost of Capital/Equity (nefindata.cost_capital.cost_capital_downloaders)
-########################################################################
+Cost of Capital/Equity
+----------------------
 
 .. currentmodule:: nefindata.cost_capital.cost_capital_downloaders
 
@@ -16,8 +14,8 @@ Cost of Capital/Equity (nefindata.cost_capital.cost_capital_downloaders)
    get_sector_cost_of_capital
 
 
-Dividend Yield (nefindata.dividend_yield.dividend_yield_downloaders)
-####################################################################
+Dividend Yield
+--------------
 
 .. currentmodule:: nefindata.dividend_yield.dividend_yield_downloaders
 
@@ -26,8 +24,8 @@ Dividend Yield (nefindata.dividend_yield.dividend_yield_downloaders)
 
 
    
-Market Illiquidity Index (nefindata.illiquidity_index.illiquidity_downloaders)
-##############################################################################
+Market Illiquidity Index
+------------------------
 
 .. currentmodule:: nefindata.illiquidity_index.illiquidity_downloaders
 
@@ -36,8 +34,8 @@ Market Illiquidity Index (nefindata.illiquidity_index.illiquidity_downloaders)
 
 
    
-Loan Fees (nefindata.loan_fees.loan_fees_downloaders)
-#####################################################
+Loan Fees
+---------
 
 .. currentmodule:: nefindata.loan_fees.loan_fees_downloaders
 
@@ -46,8 +44,8 @@ Loan Fees (nefindata.loan_fees.loan_fees_downloaders)
 
 
 
-Risk Factors (nefindata.risk_factors.risk_factors_downloaders)
-##############################################################
+Risk Factors
+------------
 
 .. currentmodule:: nefindata.risk_factors.risk_factors_downloaders
 
@@ -56,8 +54,8 @@ Risk Factors (nefindata.risk_factors.risk_factors_downloaders)
    get_risk_factors
 
 
-Short Interest (nefindata.short_interest.short_interest_downloaders)
-####################################################################
+Short Interest
+--------------
 
 .. currentmodule:: nefindata.short_interest.short_interest_downloaders
 
