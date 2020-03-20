@@ -4,12 +4,16 @@ Getting started
 
 Installation
 ------------
-The python package can be installed via pip. Run the following command::
+The python package can be installed via pip. Run the following command:
+
+.. code-block:: sh
 
     pip install nefindata
 
 
-The R package can be installed via `devtools <https://github.com/r-lib/devtools>`_ package. Make sure you have it installed and then run the following command::
+The R package can be installed via `devtools <https://github.com/r-lib/devtools>`_ package. Make sure you have it installed and then run the following command:
+
+.. code-block:: r
 
     # install.packages('devtools') # uncomment if devtools needs to be installed
     devtools::install_github('fernandoramacciotti/nefindata/R')
@@ -22,7 +26,9 @@ Risk Factors
 ############
 Collect data of risk factors such as Market Factor, SMB, WML, HML, IML and Risk Free, from `NEFIN's website <http://www.nefin.com.br/risk_factors.html`>_.
 
-Python package example::
+Python package example:
+
+.. code-block:: python
 
     from nefindata.risk_factors import get_risk_factors
 
@@ -31,7 +37,9 @@ Python package example::
     df_agg = get_risk_factors(factors, agg='month', agg_func='last')
 
 
-R package example::
+R package example:
+
+.. code-block:: r
 
     library(nefindata)
 
@@ -46,7 +54,9 @@ Cost of Capital
 Collect data of cost of capital for industrial sectors such as Basic Products, Construction, Consumer, Energy, Finance, Manufacturing and Other, from `NEFIN's website <http://www.nefin.com.br/cost_of_capital.html>`_.
 Data is available for 1, 5, 10 and 20-year projects.
 
-Python package example::
+Python package example:
+
+.. code-block:: python
 
     from nefindata.cost_capital import get_sector_cost_of_capital
 
@@ -55,7 +65,9 @@ Python package example::
     df_agg = get_sector_cost_of_capital(sector, agg='year', agg_func='last')
 
 
-R package example::
+R package example:
+
+.. code-block:: r
 
     library(nefindata)
 
