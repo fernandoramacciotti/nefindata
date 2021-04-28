@@ -15,7 +15,7 @@ pip install nefindata
 The R package can be installed via [devtools](https://github.com/r-lib/devtools) package. Make sure you have it installed and then run the following command:
 ```r
 # install.packages('devtools') # uncomment if devtools needs to be installed
-devtools::install_github('fernandoramacciotti/nefindata/R')
+devtools::install_github('fernandoramacciotti/nefindata/R-package')
 ```
 
 # Risk Factors
